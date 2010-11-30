@@ -1,0 +1,11 @@
+--- 
+test_app: 
+  api: 
+    url: 
+      list: posts
+  url: http://updated.lan
+  database: 
+    production: 
+      adapter: mysql
+test: 
+  url: http://www.test.com
